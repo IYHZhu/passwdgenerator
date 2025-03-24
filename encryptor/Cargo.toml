@@ -1,0 +1,10 @@
+[package]
+name = "encryptor"
+authors = ["YHZhu"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.56"
+base64 = "0.13.0"
+hash = { path = "../hash"}
